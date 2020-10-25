@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+.cardDepot {
+    float: left !important;
+}
+
+.navColor {
+    background-color: #dedddb !important;
+    color: white !important;
+}
+
+.bgtr {
+    background-color: beige;
+    background-size: cover;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.intro {
+    text-align: center !important;
+}
+
+.h1-start {
+    text-align: center;
+}
+
+body {
+    background-color: #fff !important;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:  #dedddb !important;
+  color: #181819 ;
+  text-align: center;
+}
+
+.footerText {
+  margin-top: 1rem;
+}
+
+.bgtr {
+    max-width: 100% !important;
+}
+
+h1, .card {
+  margin-top: 2.5rem !important;
+}
+
+.navbar-brand {
+    color: darkBlue !important;
+}
+
+.balnr {
+    color: green;
+}
+
+h1 {
+    color: darkBlue;
+}
+
+.sub {
+    margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 700px) {
+ footer {
+   margin-top: 2rem;
+   position: static;
+   height: 4rem;
+ }
+ .footerText {
+  margin-top: 0;
+  padding-top: 1.5rem;
+ }
+
+ .start, .login {
+   min-height: 35vh;
+ }
+}
